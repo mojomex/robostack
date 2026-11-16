@@ -7,6 +7,16 @@ bonxai_ros:
   url: https://github.com/facontidavide/Bonxai.git
   version: 0.6.0
 
+continental_msgs:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_continental/continental_msgs
+continental_srvs:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_continental/continental_srvs
 iiwa14_moveit_config:
   url: https://github.com/lbr-stack/lbr_fri_ros2_stack.git
   rev: 14ecad839f482da0ee4ac4b9d222d0787db3bf11
@@ -103,6 +113,136 @@ moveit2_tutorials:
   url: https://github.com/moveit/moveit2_tutorials.git
   version: 0.1.0
 
+nebula:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula
+nebula_continental:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_continental/nebula_continental
+nebula_continental_common:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_continental/nebula_continental_common
+nebula_continental_decoders:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_continental/nebula_continental_decoders
+nebula_continental_hw_interfaces:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_continental/nebula_continental_hw_interfaces
+nebula_core_common:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_core/nebula_core_common
+nebula_core_decoders:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_core/nebula_core_decoders
+nebula_core_hw_interfaces:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_core/nebula_core_hw_interfaces
+nebula_core_ros:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_core/nebula_core_ros
+nebula_hesai:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_hesai/nebula_hesai
+nebula_hesai_common:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_hesai/nebula_hesai_common
+nebula_hesai_decoders:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_hesai/nebula_hesai_decoders
+nebula_hesai_hw_interfaces:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_hesai/nebula_hesai_hw_interfaces
+nebula_msgs:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_core/nebula_msgs
+nebula_robosense:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_robosense/nebula_robosense
+nebula_robosense_common:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_robosense/nebula_robosense_common
+nebula_robosense_decoders:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_robosense/nebula_robosense_decoders
+nebula_robosense_hw_interfaces:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_robosense/nebula_robosense_hw_interfaces
+nebula_sample:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_sample/nebula_sample
+nebula_sample_common:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_sample/nebula_sample_common
+nebula_sample_decoders:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_sample/nebula_sample_decoders
+nebula_sample_hw_interfaces:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_sample/nebula_sample_hw_interfaces
+nebula_velodyne:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_velodyne/nebula_velodyne
+nebula_velodyne_common:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_velodyne/nebula_velodyne_common
+nebula_velodyne_decoders:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_velodyne/nebula_velodyne_decoders
+nebula_velodyne_hw_interfaces:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_velodyne/nebula_velodyne_hw_interfaces
 negotiated:
   url: https://github.com/osrf/negotiated.git
   rev: eac198b55dcd052af5988f0f174902913c5f20e7
@@ -127,6 +267,11 @@ opennav_coverage_msgs:
   rev: c02a41e739ab51c558d1c4c81d6c9ff154ee80f3
   version: 0.0.1
   additional_folder: opennav_coverage_msgs
+pandar_msgs:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_hesai/pandar_msgs
 psdk_interfaces:
   # upstream only releases psdk_ros2 for humble
   url: https://github.com/umdlife/psdk_ros2.git
@@ -139,6 +284,11 @@ rclcpp_async:
   url: https://github.com/otamachan/rclcpp_async.git
   version: 0.1.0
   additional_folder: rclcpp_async
+robosense_msgs:
+  url: https://github.com/tier4/nebula.git
+  rev: 9766f8c6d85b279997fcc764dbdbb058973ff5fd
+  version: 1.4.0
+  additional_folder: src/nebula_robosense/robosense_msgs
 ros2_easy_test:
   rev: 59ce58ef05f39826eaaa50c986eb039729a8c61e
   url: https://github.com/felixdivo/ros2-easy-test.git
