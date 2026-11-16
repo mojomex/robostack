@@ -634,6 +634,12 @@ packages_select_by_deps:
       - zed_msgs
 
 packages_exclude:
+  - agnocast
+  - agnocast_cie_config_msgs
+  - agnocast_cie_thread_configurator
+  - agnocast_components
+  - agnocast_ioctl_wrapper
+  - agnocastlib
 
   - if: win
     then:
